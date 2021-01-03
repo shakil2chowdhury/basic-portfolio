@@ -1,13 +1,25 @@
 body {
     font-family: 'Oswald', sans-serif;
+    margin: 0;
 }
 
 h1 {
-    font-size: 50;
+    font-family: 'Staatliches', cursive;
+    font-size: 50px;
 }
 
+h2 {
+    font-family: 'Staatliches', cursive;
+    font-size: 40px;
+}
+
+p {
+    color: dimgray;
+}
+
+
 .nameHighlight {
-    color: orange;
+    color: rgb(10, 133, 248);
 }
 
 .half-width {
@@ -19,4 +31,71 @@ h1 {
 
 .container img {
     width: 100%;
+}
+
+.topBanner {
+    background-image: url(./images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.dreamBig {
+    background-image: url("./images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+section {
+    height: 500px;
+}
+
+.linkButton {
+    text-decoration: none;
+    background-image: linear-gradient(45deg, rgb(59, 187, 230), rgb(88, 233, 160));
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+
+.linkButton2 {
+    text-decoration: none;
+    background-image: linear-gradient(45deg, rgb(0, 162, 255), rgba(19, 206, 97, 0.829));
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+
+.secondHeader {
+    text-align: center;
+}
+
+.singleExp {
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 5px;
+    height: 60%;
+    background-color: white;
+}
+
+.experienceArea {
+    background-image: url("/images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#fullStack {
+    border-left: 7px solid;
+    border-image: linear-gradient(40deg, rgb(238, 130, 41), rgb(243, 160, 91));
+    border-image-slice: 1;
+}
+
+#learner {
+    border-left: 7px solid;
+    border-image: linear-gradient(45deg, rgb(9, 224, 99), rgb(48, 81, 228));
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
+    font-size: 12px;
 }
